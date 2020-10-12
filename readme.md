@@ -15,5 +15,5 @@ Example app with no views just an index routes that has a message for you. 😉
 
 
 #### What next?
-Please Star Project :)
+Please, Star Project :)
 Thank you so much.

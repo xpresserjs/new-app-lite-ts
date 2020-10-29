@@ -14,8 +14,10 @@
     "start_console": "node"
   },
   "jobs_path": "backend/jobs",
-  "tsc": [
-    "rm -rf build",
-    "tsc -p tsconfig.json"
-  ]
+  "stacks": {
+    "tsc": [
+      "rm -rf build",
+      "tsc -p tsconfig.json"
+    ]
+  }
 }

@@ -2,7 +2,7 @@
  * Your Config File.
  * See https://xpresserjs.com/configuration/
  */
-module.exports = {
+export = {
     // name of app
     name: 'Xpresser-Simple-Typescript-App',
 

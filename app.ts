@@ -10,7 +10,7 @@ import xpresser = require("xpresser");
 import config = require("./config");
 
 // Initialize Xpresser
-const $ = xpresser(config)
+const $ = xpresser.init(config)
 
 // Initialize Typescript
 $.initializeTypescript(__filename)

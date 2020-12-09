@@ -1,10 +1,8 @@
-import {DollarSign} from "xpresser/types";
-
-declare const $: DollarSign;
+import {getInstanceRouter} from "xpresser";
 /**
  * See https://xpresserjs.com/router/
  */
-const Route = $.router;
+const Route = getInstanceRouter();
 
 /**
  * Url: "/" points to AppController@index

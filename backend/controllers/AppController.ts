@@ -1,9 +1,7 @@
-import * as Xpresser from "xpresser/types/http";
+import {Controller} from "xpresser/types/http";
 
-/**
- * @type Xpresser.Controller.Object
- */
-const AppController: Xpresser.Controller.Object = {
+
+const AppController = <Controller.Object>{
     /**
      * Controller name.
      * @type {string}
@@ -15,7 +13,6 @@ const AppController: Xpresser.Controller.Object = {
      * @returns {string}
      */
     index: (): string => "<h1>My xpresser Typescript lite project</h1>",
-
 };
 
 module.exports = AppController;

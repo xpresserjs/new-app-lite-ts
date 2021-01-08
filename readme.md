@@ -2,7 +2,7 @@
 
 ![Alt text](https://cdn.jsdelivr.net/npm/xpresser/xpresser-logo-black.png "Xpresser Logo")
 
-Example app with no views just an index routes that has a message for you. 😉
+Example app with no views just an index routes that has a message for you.
 
 ### Use
 

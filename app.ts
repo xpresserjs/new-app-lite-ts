@@ -10,7 +10,7 @@ import xpresser = require("xpresser");
 import config = require("./config");
 
 // Initialize Xpresser
-const $ = xpresser.init(config)
+const $ = xpresser.init(config, {exposeDollarSign: false})
 
 // Initialize Typescript
 $.initializeTypescript(__filename)

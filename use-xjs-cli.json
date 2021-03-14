@@ -1,9 +1,9 @@
 {
   "dev": {
     "main": "app.ts",
-    "start_cron": "ts-node-dev --transpile-only",
-    "start_server": "ts-node-dev --respawn --transpile-only",
-    "start_console": "ts-node-dev --transpile-only",
+    "start_cron": "npx ts-node",
+    "start_server": "npx ts-node-dev --respawn --transpile-only",
+    "start_console": "npx ts-node",
     "jobs_path": "backend/jobs"
   },
   "prod": {

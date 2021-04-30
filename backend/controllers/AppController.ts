@@ -15,4 +15,4 @@ const AppController = <Controller.Object>{
     index: (): string => "<h1>My xpresser Typescript lite project</h1>",
 };
 
-module.exports = AppController;
+export = AppController;

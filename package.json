@@ -9,19 +9,19 @@
   "private": false,
   "scripts": {
     "start": "npm run build && node build/app.js",
-    "build": "xjs @stack tsc",
-    "ts-watch": "tsc --watch",
-    "ts-dev": "ts-node-dev --respawn app.ts",
-    "js-dev": "nodemon build/app.js"
+    "build": "npx xjs @stack tsc",
+    "ts-watch": "npx tsc --watch",
+    "ts-dev": "npx ts-node-dev --respawn app.ts",
+    "js-dev": "npx nodemon build/app.js"
   },
   "dependencies": {
-    "xpresser": "^0.15.0"
+    "xpresser": "^0.18.1"
   },
   "devDependencies": {
-    "@types/node": "^15.0.1",
+    "@types/node": "^15.12.4",
     "nodemon": "^2.0.7",
     "ts-node-dev": "^1.1.6",
-    "typescript": "^4.2.4",
-    "xjs-cli": "^0.3.0"
+    "typescript": "^4.3.4",
+    "xjs-cli": "^0.3.1"
   }
 }

@@ -15,7 +15,7 @@
     "js-dev": "npx nodemon build/app.js"
   },
   "dependencies": {
-    "xpresser": "^0.24.0"
+    "xpresser": "^0.25.4"
   },
   "devDependencies": {
     "@types/node": "^16.11.1",
